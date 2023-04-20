@@ -1,12 +1,9 @@
-<header class="site-header">
-  <div>
-    <h1><a href="#">Projeto Angular</a></h1>
-  </div>
-  <nav>
-    <ul class="nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Produtos</a></li>
-      <li><a href="#">Pedidos</a></li>
+<nav>
+  <div class="nav-wrapper">
+    <a routerLink="" class="brand-logo right">Projeto Angular 1</a>
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
+      <li routerLinkActive="active"><a routerLink="/produtos" >Produtos</a></li>
+      <li routerLinkActive="active"><a routerLink="/pedidos" >Pedidos</a></li>
     </ul>
-  </nav>
-</header>
+  </div>
+</nav>
